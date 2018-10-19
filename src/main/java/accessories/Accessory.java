@@ -17,11 +17,11 @@ public class Accessory implements ISell {
         return description;
     }
 
+    @Override
     public double getBuyPrice() {
         return buyPrice;
     }
 
-    @Override
     public double getSellPrice() {
         return sellPrice;
     }

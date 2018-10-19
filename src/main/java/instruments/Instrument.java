@@ -30,11 +30,11 @@ public abstract class Instrument implements ISell, IPlay {
         return type;
     }
 
+    @Override
     public double getBuyPrice() {
         return buyPrice;
     }
 
-    @Override
     public double getSellPrice() {
         return sellPrice;
     }
